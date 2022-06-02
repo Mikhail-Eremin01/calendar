@@ -1,0 +1,15 @@
+.header{
+	display: flex;
+	padding: 0 40px;
+	align-items: center;
+	width: 100%;
+	justify-content: space-between;
+    .header__title{
+        font-size: 40px;
+        font-weight: $fWeight;
+        letter-spacing: 2px;
+        text-decoration: underline 1px;
+        transition: 0.5s;
+        padding: 5px;
+    }
+}

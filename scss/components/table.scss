@@ -1,0 +1,28 @@
+.container-table{
+	display: flex;
+	justify-content: center;
+    .table{
+        margin: 20px;
+	    border-spacing: 0;
+        .table__firstTd{
+            height: 30px;
+            padding: 0 10px;
+            text-align: center;
+            letter-spacing: 2px;
+            font-weight: $fWeight;
+            border: 1px solid $colour;
+        }
+        .table__td{
+            height: 30px;
+            width: 150px;
+            border: 1px solid $colour;
+            text-align: center;
+            font-weight: $fWeight;
+            cursor: pointer;
+            &:hover{
+                background-color: #d5e6a2;
+                border: 3px solid $colour;
+            }
+        }
+    }
+}

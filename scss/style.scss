@@ -1,0 +1,19 @@
+@import 'variables';
+
+body{
+	display: flex;
+	flex-direction: column;
+	font-family: 'Poppins', sans-serif;
+}
+
+@import 'zeroing';
+
+@import 'components/header';
+
+@import 'components/table';
+
+@import 'components/new-meeting';
+
+@import 'components/new-participant.scss';
+
+@import 'components/buttons.scss';
