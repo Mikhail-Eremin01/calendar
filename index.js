@@ -5,7 +5,7 @@ const PORT = 8000;
 const jsonParser = express.json();
 const middleware = require('./middlewares.js');
 
-app.use(express.static(__dirname));//  папка public
+app.use(express.static(__dirname));// must be public
 
 app.post('/meetings', jsonParser, middleware);
 app.post('/participants', jsonParser, middleware);
